@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    background-color: white;
+}
+
+.justify-inbetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.main-dim {
+    max-width: 1440px;
+}
+
+.m-center {
+    margin: 0px auto 0px auto;
+}
+
+header {
+    max-width: 1140px;
+    height: 131px;
+}
+
+header>div:first-child>p {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.button {
+    border: 1px #0D1321 solid;
+    border-radius: 8px;
+    padding: 17px 24px;
+}
+
+.button>p {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.banner {
+    background-image: url;
+}
