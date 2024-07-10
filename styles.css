@@ -134,3 +134,131 @@ banner starts here */
 
 /* banner ends here! */
 /* main starts here */
+
+.main {
+    max-width: 1140px;
+    background-color: #0d132117;
+}
+
+.intro {
+    max-width: 852px;
+}
+
+.m-24 {
+    margin-top: 24px;
+}
+
+.m-74 {
+    margin-top: 74px;
+}
+
+.introHead>h2 {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.introText>p {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.no-rad {
+    border-radius: 0px;
+}
+
+.m-48 {
+    margin-top: 48px;
+}
+
+.mainContent {
+    border: 0px solid black;
+    border-radius: 16px;
+}
+
+.contentLeft {
+    width: 477px;
+    margin-right: 98px;
+}
+
+.contentRight {
+    width: 477px;
+}
+
+.imageRight {
+    width: 274px;
+}
+
+.imageLeft {
+    width: 274px;
+    margin-right: 98px;
+}
+
+.m-16 {
+    margin-top: 16px;
+}
+
+.contentLeftHead>h3 {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.contentLeftText>p {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contentRightHead>h3 {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.contentRightText>p {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.bg-white {
+    background-color: #FFF;
+}
+
+.fit {
+    width: fit-content;
+}
+
+.mainContentPad {
+    padding: 48px;
+}
+
+.mainContentTextColor {
+    color: #0d1321b4;
+}
+
+.m-right {
+    margin: 0 0 0 auto;
+}
