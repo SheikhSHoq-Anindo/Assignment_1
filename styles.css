@@ -29,7 +29,8 @@
 }
 
 .m-center {
-    margin: 0px auto 0px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -138,6 +139,8 @@ banner starts here */
 .main {
     max-width: 1140px;
     background-color: #0d132117;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .intro {
@@ -150,6 +153,10 @@ banner starts here */
 
 .m-74 {
     margin-top: 74px;
+}
+
+.m-80 {
+    margin-top: 80px;
 }
 
 .introHead>h2 {
@@ -261,4 +268,52 @@ banner starts here */
 
 .m-right {
     margin: 0 0 0 auto;
+}
+
+/* content ends here */
+/* inspiration starts here */
+
+.m-90 {
+    margin-top: 90px;
+}
+
+.inspiration {
+    max-width: 1140px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.inspirationHead>h3 {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+}
+
+.inspirationSubtitle>p {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.text-color {
+    color: #0D1321;
+}
+
+.inspirationVedio {
+    border: 1px solid #0d132123;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.inspirationVedio>iframe {
+    border-radius: 16px;
 }
