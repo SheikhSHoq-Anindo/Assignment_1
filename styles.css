@@ -414,11 +414,26 @@ banner starts here */
 /* Subscribe section starts here */
 
 .subscribe{
-    padding: 64px;
+    
     background-image: url("assets/handshake.jpg");
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 
-.subscribe>h3{
+.subscribe>div{
+    padding: 64px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    background-color: #000000c9;
+}
+
+.subscribe>div>h3{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -428,7 +443,7 @@ banner starts here */
     text-align: center;
 }
 
-.subscribe>p{
+.subscribe>div>p{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
