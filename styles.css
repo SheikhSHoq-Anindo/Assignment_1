@@ -3,6 +3,11 @@
 
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 .flex {
     display: flex;
 }
@@ -47,6 +52,8 @@ header>div:first-child>p {
     line-height: 1;
 }
 
+
+
 .button {
     border: 1px #0D1321 solid;
     border-radius: 8px;
@@ -59,7 +66,7 @@ header>div:first-child>p {
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
-    line-height: 1;
+    line-height: 1;    
 }
 
 /* header ends here
@@ -267,7 +274,8 @@ banner starts here */
 }
 
 .m-right {
-    margin: 0 0 0 auto;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 /* content ends here */
@@ -348,6 +356,7 @@ banner starts here */
 .skillItem{
     padding: 40px;
     width: 284px;
+    border-radius: 16px;
 }
 
 .m-8{
@@ -371,12 +380,8 @@ banner starts here */
     font-style: normal;
     font-size: 16px;
     line-height: 26px;
-    text-align: left;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+    text-align: left;   
+   
 }
 
 .skillItem:first-child{
@@ -400,6 +405,7 @@ banner starts here */
     font-size: 16px;
     line-height: 1;
     text-align: left;
+    text-decoration: underline;
 }
 
 .justify-end{
