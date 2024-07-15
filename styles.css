@@ -421,6 +421,7 @@ banner starts here */
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
+    max-width: 1140px;
 }
 
 .subscribe>div{
@@ -431,6 +432,7 @@ banner starts here */
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
     background-color: #000000c9;
+    max-width: 1140px;
 }
 
 .subscribe>div>h3{
@@ -472,3 +474,35 @@ banner starts here */
     text-align: left;
     margin-right: 16px;
 }
+
+/* footer section */
+footer{
+    background-color: #0d132125;
+}
+
+.footer-content{
+    max-width: 1140px;
+    padding: 35px;
+    
+}
+
+.footer-text>p{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+}
+
+.icons>ul>li{
+    list-style: none;   
+    padding-right: 20px;
+}
+
+.icons>ul>li:last-child{
+    padding-right: 0px;
+}
+
+
