@@ -317,3 +317,96 @@ banner starts here */
 .inspirationVedio>iframe {
     border-radius: 16px;
 }
+
+/* inspiration ends here */
+/* Skill sets starts here */
+
+.skills{
+    max-width: 1140px;
+}
+
+.skillHeadText{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.skillSubtext{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.skillItem{
+    padding: 40px;
+    width: 284px;
+}
+
+.m-8{
+    margin-top: 8px;
+}
+
+.skillItem>h4>span{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.skillItem>p{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.skillItem:first-child{
+    background-color: rgb(250, 219, 198);
+}
+
+.skillItem:nth-child(2){
+    background-color: rgb(215, 227, 250);
+}
+
+.skillItem:last-child{
+    background-color: rgb(249, 250, 215);
+}
+
+
+.skillLink>a{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+}
+
+.justify-end{
+    justify-content:end;
+}
+
+.m-bottom{
+    margin-top: auto;
+    margin-bottom: 0;
+}
