@@ -148,6 +148,11 @@ banner starts here */
     background-color: #0d132117;
     padding-top: 80px;
     padding-bottom: 80px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 
 .intro {
@@ -380,8 +385,7 @@ banner starts here */
     font-style: normal;
     font-size: 16px;
     line-height: 26px;
-    text-align: left;   
-   
+    text-align: left;
 }
 
 .skillItem:first-child{
